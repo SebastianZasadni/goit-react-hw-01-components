@@ -1,5 +1,7 @@
 import { Profile } from './profile/Profile.jsx';
+import { Statistics } from './statistics/Statistics.jsx';
 import user from 'user.json';
+import data from 'data.json';
 import PropTypes from 'prop-types';
 
 export const App = () => (
