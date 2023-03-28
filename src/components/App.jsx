@@ -25,3 +25,7 @@ Profile.propTypes = {
   avatar: PropTypes.string,
 };
 
+Statistics.propTypes = {
+  stats: PropTypes.array.isRequired,
+};
+
