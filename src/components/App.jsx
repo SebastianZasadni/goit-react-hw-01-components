@@ -36,4 +36,4 @@ Statistics.propTypes = {
 
 FriendList.propTypes = {
   freind: PropTypes.array.isRequired,
-}
+};
