@@ -5,14 +5,16 @@ import user from 'user.json';
 import PropTypes from 'prop-types';
 
 export const App = () => (
-  <><Profile
-    username={user.username}
-    tag={user.tag}
-    location={user.location}
-    avatar={user.avatar}
-    stats={user.stats} /><Statistics
-    stats={data} /></>
-
+  <>
+    <Profile
+      username={user.username}
+      tag={user.tag}
+      location={user.location}
+      avatar={user.avatar}
+      stats={user.stats}
+    />
+    <Statistics stats={data} />
+  </>
 );
 
 Profile.propTypes = {
@@ -24,6 +26,5 @@ Profile.propTypes = {
 };
 
 Statisitcs.propTypes = {
-  stats
-}
-
+  stats,
+};
