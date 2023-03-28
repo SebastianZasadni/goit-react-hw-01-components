@@ -25,6 +25,3 @@ Profile.propTypes = {
   avatar: PropTypes.string,
 };
 
-Statisitcs.propTypes = {
-  stats,
-};
