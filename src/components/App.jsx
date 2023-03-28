@@ -2,9 +2,11 @@ import PropTypes from 'prop-types';
 import { Profile } from './profile/Profile.jsx';
 import { Statistics } from './statistics/Statistics.jsx';
 import { FriendList } from './friendlist/FriendList.jsx';
+import { Transactions } from './transactions/Transactions.jsx';
 import data from './statistics/data.json';
 import user from './profile/user.json';
 import friends from './friendlist/friends.json';
+import transactions from './transactions/transactions.json';
 
 export const App = () => (
   <>
@@ -19,6 +21,7 @@ export const App = () => (
       <Statistics title="Upload stats" stats={data} />
     </>
     <FriendList friends={friends} />
+    <Transactions transactions={transactions} />
   </>
 );
 
@@ -36,4 +39,8 @@ Statistics.propTypes = {
 
 FriendList.propTypes = {
   friends: PropTypes.array.isRequired,
+};
+
+Transactions.propTypes = {
+  transactions: PropTypes.array.isRequired,
 };
