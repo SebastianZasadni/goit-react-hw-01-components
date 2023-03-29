@@ -6,6 +6,8 @@ const checkStatus = isOnline => {
       return 'green';
     case false:
       return 'red';
+      default:
+        return null;
   }
 };
 
