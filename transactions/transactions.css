@@ -1,0 +1,14 @@
+.transaction-history {
+  margin: 10px auto;
+}
+.transactions-history__head {
+  font-weight: bold;
+  text-transform: uppercase;
+  background-color: lightgrey;
+}
+.transactions-history__item {
+  text-align: center;
+  width: 150px;
+  height: 40px;
+  background-color: lightgreen;
+}
