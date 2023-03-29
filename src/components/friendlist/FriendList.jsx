@@ -9,7 +9,7 @@ const checkStatus = isOnline => {
   }
 };
 
-export default FriendList = ({ friends }) => {
+export const FriendList = ({ friends }) => {
   return (
     <section className="friends">
       <ul className="friend-list">
@@ -28,4 +28,5 @@ export default FriendList = ({ friends }) => {
       </ul>
     </section>
   );
-};
+        };
+
