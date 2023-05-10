@@ -1,12 +1,12 @@
-.transaction-history {
+.transactionhistory {
   margin: 10px auto;
 }
-.transactions-history__head {
+.transactionshistoryhead {
   font-weight: bold;
   text-transform: uppercase;
   background-color: lightgrey;
 }
-.transactions-history__item {
+.transactionshistoryitem {
   text-align: center;
   width: 150px;
   height: 40px;

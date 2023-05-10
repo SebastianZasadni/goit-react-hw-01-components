@@ -3,12 +3,12 @@
   justify-content: center;
   text-align: center;
 }
-.friend-list {
+.friendlist {
   list-style: none;
   margin: 0;
   padding: 0;
 }
-.friend-list__item {
+.friendlistitem {
   display: flex;
   width: 48px;
   gap: 10px;
@@ -19,4 +19,7 @@
   width: 5px;
   height: 5px;
   border-radius: 50%;
+}
+.avatar{
+  width: 50px;
 }
