@@ -1,4 +1,4 @@
-// import { Profile } from './Profile/Profile.jsx';
+import { Profile } from './Profile/Profile.jsx';
 import { Statistics } from './Statistics/Statistics.jsx';
 import { FriendList } from './Friendlist/FriendList.jsx';
 import { Transactions } from './Transactions/Transactions.jsx';
@@ -9,13 +9,13 @@ import transactions from '../utils/transactions.json';
 
 export const App = () => (
   <>
-    {/* <Profile
+    <Profile
       username={user.username}
       tag={user.tag}
       location={user.location}
       avatar={user.avatar}
       stats={user.stats}
-    /> */}
+    />
     <Statistics title="Upload stats" stats={data} />
 
     <FriendList friends={friends} />
