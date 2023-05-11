@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types';
+import randomColor from 'randomcolor';
 import css from './Statistics.module.css';
-const randomColor = require('randomcolor');
 
 export const Statistics = ({ title, stats }) => {
   return (

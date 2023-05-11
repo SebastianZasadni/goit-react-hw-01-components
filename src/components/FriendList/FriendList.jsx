@@ -1,16 +1,7 @@
 import PropTypes from 'prop-types';
 import css from './FriendList.module.css';
 
-const checkStatus = isOnline => {
-  switch (isOnline) {
-    case true:
-      return 'green';
-    case false:
-      return 'red';
-    default:
-      return null;
-  }
-};
+const checkStatus = isOnline => (isOnline ? 'green' : 'red');
 
 export const FriendList = ({ friends }) => {
   return (
