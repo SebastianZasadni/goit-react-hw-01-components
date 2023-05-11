@@ -1,8 +1,8 @@
 import React from 'react';
 import { Profile } from './components/profile/Profile.jsx';
-import { Statistics } from './components/Statistics/Statistics.jsx';
-import { FriendList } from './components/Friendlist/FriendList.jsx';
-import { Transactions } from './components/Transactions/Transactions.jsx';
+import { Statistics } from './components/statistics/Statistics.jsx';
+import { FriendList } from './components/friendlist/FriendList.jsx';
+import { Transactions } from './components/transactions/Transactions.jsx';
 import data from './utils/data.json';
 import user from './utils/user.json';
 import friends from './utils/friends.json';
