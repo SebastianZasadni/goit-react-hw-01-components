@@ -1,0 +1,25 @@
+.friends {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.friendlist {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.friendlistitem {
+  display: flex;
+  width: 48px;
+  gap: 10px;
+  margin: 10px auto;
+  align-items: center;
+}
+.status {
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+}
+.avatar{
+  width: 50px;
+}
