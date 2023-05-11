@@ -8,8 +8,9 @@ import user from './utils/user.json';
 import friends from './utils/friends.json';
 import transactions from './utils/transactions.json';
 
-export const App = () => (
-  <>
+export const App = () => {
+  return (
+  <div>
     <Profile
       username={user.username}
       tag={user.tag}
@@ -20,5 +21,6 @@ export const App = () => (
     <Statistics title="Upload stats" stats={data} />
     <FriendList friends={friends} />
     <Transactions transactions={transactions} />
-  </>
-);
+  </div>
+  );
+  }
